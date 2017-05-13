@@ -1,2 +1,4 @@
 
 1 SELECT * FROM robots WHERE source = 'The Hitchhiker''s Guide to the Galaxy';
+
+1. SELECT * FROM robots WHERE personality = 'anxious';
