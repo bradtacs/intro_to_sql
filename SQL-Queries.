@@ -11,4 +11,12 @@
 
 6. SELECT MAX(minutes_required) FROM recipes;
 
-7.
+7.SELECT * FROM robots WHERE name ILIKE 'M%';
+
+8. SELECT COUNT(*)  FROM board_games WHERE min_players < 9 AND max_players >= 8;
+
+9. SELECT * FROM animals WHERE swimming AND egg_laying = true;
+
+10 SELECT * FROM animals WHERE swimming AND egg_laying = true AND flying = false;
+
+11 SELECT name, max_players FROM board_games ORDER BY max_players DESC LIMIT 1;
