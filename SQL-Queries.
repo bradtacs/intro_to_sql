@@ -8,3 +8,7 @@
 4 SELECT COUNT(*) FROM recipes WHERE gluten_free = true AND vegetarian = false;
 
 5. SELECT MAX(number_of_legs) FROM animals;
+
+6. SELECT MAX(minutes_required) FROM recipes;
+
+7.
